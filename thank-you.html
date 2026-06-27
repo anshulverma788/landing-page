@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You - Himachal Destination | Inquiry Received</title>
+    <meta name="description" content="Thank you for inquiring with Himachal Destination. Our travel experts will contact you shortly with your customized Spiti Valley package.">
+    <link rel="icon" href="./images/destination/spiti-monastery-2.jpg">
+
+    <!-- Framework & Fonts Integration -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom Theme Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        .thankyou-wrapper {
+            min-height: 75vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+            background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+
+        .thankyou-card {
+            background: #ffffff;
+            border-radius: 28px;
+            padding: 50px 40px;
+            max-width: 680px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+            border: 1px solid #f1f5f9;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .thankyou-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 8px;
+            background: linear-gradient(90deg, #0284c7, #f97316, #f59e0b);
+        }
+
+        .thankyou-icon {
+            width: 90px;
+            height: 90px;
+            background: #dcfce7;
+            color: #16a34a;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 46px;
+            margin: 0 auto 25px;
+            box-shadow: 0 10px 25px rgba(22, 163, 74, 0.25);
+            animation: hdPopIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        }
+
+        @keyframes hdPopIn {
+            0% { transform: scale(0); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        .thankyou-title {
+            font-size: 2.4rem;
+            font-weight: 900;
+            color: #0f172a;
+            margin-bottom: 12px;
+        }
+
+        .thankyou-subtitle {
+            font-size: 1.1rem;
+            color: #475569;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .info-box {
+            background: #f8fafc;
+            border-radius: 16px;
+            padding: 20px;
+            border: 1.5px dashed #cbd5e1;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .info-box-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .info-box-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-box-item i {
+            color: #0284c7;
+            font-size: 18px;
+            margin-top: 3px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Contact & Social Bar -->
+    <div class="hd-top-bar">
+        <div class="container hd-header-inner">
+            <div class="hd-contact-info">
+                <a href="mailto:himachaldestination@gmail.com" class="hd-divider">
+                    <i class="fa-solid fa-envelope"></i> himachaldestination@gmail.com
+                </a>
+                <a href="tel:+919876543210">
+                    <i class="fa-solid fa-phone"></i> +91 9876543210
+                </a>
+                <a href="tel:+919876543210" class="hd-hide-mobile">
+                    <i class="fa-solid fa-phone"></i> +91 9876543210
+                </a>
+            </div>
+
+            <div class="hd-social-links">
+                <a href="https://www.facebook.com/people/HimachalDestination/61583162938375/" target="_blank" aria-label="Facebook Page">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/himachal_destination" target="_blank" aria-label="Instagram Profile">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-dark d-flex align-items-center gap-3" href="index.html">
+                <div class="hd-brand-emblem"><i class="fa-solid fa-mountain-sun"></i></div>
+                <span>Himachal Destination</span>
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hdNavMenu" aria-label="Toggle navigation menu">
+                <div class="hd-hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="hdNavMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html#packages">Tour Packages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#journey">Mountain Journeys</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#choose">Our Strengths</a></li>
+                    <li class="nav-item">
+                        <a href="index.html#popupForm" class="nav-link hd-nav-cta-btn text-white">
+                            <i class="fa-solid fa-paper-plane me-1"></i> Plan Trip
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Thank You Main Section -->
+    <main class="thankyou-wrapper">
+        <div class="thankyou-card">
+            <div class="thankyou-icon">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <h1 class="thankyou-title">Inquiry Received Successfully!</h1>
+            <p class="thankyou-subtitle">
+                Thank you for reaching out to <strong>Himachal Destination</strong>. Your Spiti Valley travel details have been logged in our system.
+            </p>
+
+            <div class="info-box">
+                <div class="info-box-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <strong>Rapid Response:</strong> Our senior Himalayan tour advisor will contact you via phone or WhatsApp within <strong>15 to 30 minutes</strong>.
+                    </div>
+                </div>
+                <div class="info-box-item">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <div>
+                        <strong>Custom Itinerary:</strong> We will prepare a customized day-by-day itinerary with verified cabs, luxury homestays, and lowest price guarantee.
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex gap-3 justify-content-center flex-wrap">
+                <a href="index.html" class="btn btn-custom px-4 py-3">
+                    <i class="fa-solid fa-house me-2"></i>Return to Homepage
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=+919816002003&text=Hello%20Himachal%20Destination,%20I%20just%20submitted%20an%20inquiry%20form%20on%20your%20website." target="_blank" class="btn btn-success rounded-pill px-4 py-3 fw-bold shadow">
+                    <i class="fa-brands fa-whatsapp me-2 fs-5"></i>Instant WhatsApp Chat
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Col 1: Brand Info -->
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="fs-4 d-flex align-items-center gap-2 text-white fw-bold"><i class="fa-solid fa-mountain-sun text-warning"></i> Himachal Destination</h3>
+                    <p class="small text-light opacity-85 mt-3">Connecting passionate wanderers to the raw, untamed wilderness of Spiti & Kinnaur. Verified local drivers, luxury homestays, and round-the-clock ground support.</p>
+                    <div class="hd-footer-social">
+                        <a href="https://www.facebook.com/people/HimachalDestination/61583162938375/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/himachal_destination" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=+919816002003" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h3 class="fs-5 text-white fw-bold">Popular Spots</h3>
+                    <ul class="hd-footer-links">
+                        <li><a href="index.html#packages"><i class="fa-solid fa-chevron-right fs-6 text-warning"></i> Kaza Town</a></li>
+                        <li><a href="index.html#packages"><i class="fa-solid fa-chevron-right fs-6 text-warning"></i> Chandratal Lake</a></li>
+                        <li><a href="index.html#packages"><i class="fa-solid fa-chevron-right fs-6 text-warning"></i> Hikkim Post Office</a></li>
+                        <li><a href="index.html#packages"><i class="fa-solid fa-chevron-right fs-6 text-warning"></i> Key Monastery</a></li>
+                        <li><a href="index.html#packages"><i class="fa-solid fa-chevron-right fs-6 text-warning"></i> Chitkul Village</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Contact Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="fs-5 text-white fw-bold">Reach Us</h3>
+                    <ul class="hd-footer-links">
+                        <li><a href="tel:+919876543210"><i class="fa-solid fa-phone text-warning"></i> +91 9876543210</a></li>
+                        <li><a href="tel:+919876543210"><i class="fa-solid fa-phone text-warning"></i> +91 9876543210</a></li>
+                        <li><a href="mailto:himachaldestination@gmail.com"><i class="fa-solid fa-envelope text-warning"></i> himachaldestination@gmail.com</a></li>
+                        <li><span class="small text-light opacity-85"><i class="fa-solid fa-location-dot text-warning me-2"></i> Mall Road, Shimla, H.P.</span></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Approval & Payments -->
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="fs-5 text-white fw-bold">Authorized Travel</h3>
+                    <div class="badge bg-light bg-opacity-10 text-light p-3 w-100 mb-3 text-start"><i class="fa-solid fa-award text-warning me-2 fs-5"></i> Himachal Tourism Approved</div>
+                    <div class="hd-payment-badge">
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-cc-paypal"></i>
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright text-center">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+            <div>© 2026 Himachal Destination. All Rights Reserved.</div>
+            <div class="small opacity-75">Designed for Himalayan Adventures</div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
